@@ -4,10 +4,10 @@ $(document).ready(function(){
 		type:'inline',
 		midClick: true,
 		removalDelay: 300,
-        mainClass: 'mfp-fade'
-      });
-      
-    $(".form").submit(function() { //Change
+		mainClass: 'mfp-fade'
+	});
+
+	$(".form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -25,10 +25,9 @@ $(document).ready(function(){
 				$('.form').fadeIn('slow');
 			}, 2750);
 
-
 		});
 		return false;
-    });
-    
+	});
+
 
 });

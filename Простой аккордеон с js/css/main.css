@@ -1,0 +1,13 @@
+.accordion {
+	width: 400px;
+}
+.accordion-title {
+	padding: 10px;
+	background: #03a269;
+	margin: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+.accordion-desc {
+    padding: 10px 20px;
+}
